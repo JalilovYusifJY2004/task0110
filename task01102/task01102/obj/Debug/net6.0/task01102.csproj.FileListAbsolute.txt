@@ -1,0 +1,14 @@
+C:\Users\Zeynal\Pictures\task01102\task01102\bin\Debug\net6.0\task01102.exe
+C:\Users\Zeynal\Pictures\task01102\task01102\bin\Debug\net6.0\task01102.deps.json
+C:\Users\Zeynal\Pictures\task01102\task01102\bin\Debug\net6.0\task01102.runtimeconfig.json
+C:\Users\Zeynal\Pictures\task01102\task01102\bin\Debug\net6.0\task01102.dll
+C:\Users\Zeynal\Pictures\task01102\task01102\bin\Debug\net6.0\task01102.pdb
+C:\Users\Zeynal\Pictures\task01102\task01102\obj\Debug\net6.0\task01102.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zeynal\Pictures\task01102\task01102\obj\Debug\net6.0\task01102.AssemblyInfoInputs.cache
+C:\Users\Zeynal\Pictures\task01102\task01102\obj\Debug\net6.0\task01102.AssemblyInfo.cs
+C:\Users\Zeynal\Pictures\task01102\task01102\obj\Debug\net6.0\task01102.csproj.CoreCompileInputs.cache
+C:\Users\Zeynal\Pictures\task01102\task01102\obj\Debug\net6.0\task01102.dll
+C:\Users\Zeynal\Pictures\task01102\task01102\obj\Debug\net6.0\refint\task01102.dll
+C:\Users\Zeynal\Pictures\task01102\task01102\obj\Debug\net6.0\task01102.pdb
+C:\Users\Zeynal\Pictures\task01102\task01102\obj\Debug\net6.0\task01102.genruntimeconfig.cache
+C:\Users\Zeynal\Pictures\task01102\task01102\obj\Debug\net6.0\ref\task01102.dll
