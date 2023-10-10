@@ -17,22 +17,42 @@ namespace task01102
             //Console.WriteLine(Trim(text,symbol));
 
             // task1 
-          //string name = Console.ReadLine(); 
-          //  Console.WriteLine(name);
-          //  Capitalize(name);
+       
+ string sentence = "   yusİF ceLiLLi koMputEr mUhendİsliyİ,   İtT codE acAdeMy";
+
+            string changedSentence = ChangeSentence(sentence);
+
+            Console.WriteLine(changedSentence);
 
 
         }
         // Task 1
-        //public static string Capitalize(string str)
-        //{
-        //    StringBuilder sb = new StringBuilder();
-        //    sb.Append(Char.ToUpper(str[0]));
-        //    for (int i = 1; i < str.Length; i++)
-        //    {
-        //        sb.Append( Char.ToLower(str[i]));  
-        //    }
-        //    return sb.ToString();
+        
+                    static string ChangeSentence(string sentence)
+            {
+                TextInfo textInfo = CultureInfo.CurrentCulture.TextInfo;
+
+                string[] words = sentence.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                for (int i = 0; i < words.Length; i++)
+                {
+                    words[i] = textInfo.ToTitleCase(words[i].ToLower());
+                }
+                string changedSentence = string.Join(" ", words);
+
+                return changedSentence;
+            }
+            public static string Capitalize(string str)
+            {
+                StringBuilder sb = new StringBuilder();
+                sb.Append(char.ToUpper(str[0]));
+                for (int i = 1; i < str.Length; i++)
+                {
+                    sb.Append(Char.ToLower(str[i]));
+                }
+                return sb.ToString();
+            }
+}
+        
         //}
         // task4
         //public static string TrimStart(string text, char symbol = ' ')
